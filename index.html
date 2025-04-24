@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="treinandojs.js"></script>
+    <link rel="stylesheet" href="treinandojs.css">
+</head>
+<body> 
+    <DIV id="calculadora">
+    <p><input id="resultado" disabled></p> <br>
+<div id="op">
+   
+    
+  
+
+    </div>
+    
+    <div id="botoes">
+    <input type="button" value="7" onclick="insertToDisplay('7')">
+    <input type="button" value="8" onclick="insertToDisplay('8')">
+    <input type="button" value="9" onclick="insertToDisplay('9')"> 
+
+    <input class="orange" type="button" value="+" onclick="insertToDisplay('+')"> 
+
+    <input type="button" value="4" onclick="insertToDisplay('4')"> 
+    <input type="button" value="5" onclick="insertToDisplay('5')">
+    <input type="button" value="6" onclick="insertToDisplay('6')">
+
+    <input class="orange" type="button" value="-"onclick="insertToDisplay('-')">  
+
+    <input type="button" value="1" onclick="insertToDisplay('1')">
+    <input type="button" value="2" onclick="insertToDisplay('2')"> 
+    <input type="button" value="3" onclick="insertToDisplay('3')"> 
+
+    <input class="orange" type="button" value="*" onclick="insertToDisplay('*')"> 
+    <input  class="orange" type="button" value="C" onclick="clean()"> 
+
+    <input id="zero" type="button" value="0" onclick="insertToDisplay('')"> 
+
+    <input  class="orange" type="button" value="=" onclick="result()"> 
+     <input  class="orange" type="button" value="<" onclick="back()"> 
+     </div>
+</DIV>
+    
+</body>
+</html>
